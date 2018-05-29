@@ -6,14 +6,18 @@
 
     <groupId>hu.domika</groupId>
     <artifactId>JavaModuleSystemDemo</artifactId>
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>accuweather</module>
+        <module>app</module>
+    </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.9</java.version>
-        <start-class>hu.domika.module.Main</start-class>
+        <start-class>hu.domika.app.Main</start-class>
     </properties>
 
     <build>
