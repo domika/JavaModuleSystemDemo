@@ -11,6 +11,7 @@
     <modules>
         <module>accuweather</module>
         <module>app</module>
+        <module>weather</module>
     </modules>
 
     <properties>

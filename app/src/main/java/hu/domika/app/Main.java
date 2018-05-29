@@ -1,6 +1,7 @@
 package hu.domika.app;
 
 import hu.domika.accuweather.AccuWeatherForecast;
+import hu.domika.weather.WeatherForecast;
 
 /**
  * @author Balazs_Domonkos
@@ -8,7 +9,7 @@ import hu.domika.accuweather.AccuWeatherForecast;
 public class Main {
 
     public static void main(String[] args) {
-        AccuWeatherForecast forecast = new AccuWeatherForecast();
+        WeatherForecast forecast = new AccuWeatherForecast();
         System.out.println(forecast.getWeatherForecast("Budapest"));
     }
 }
