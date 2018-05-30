@@ -6,4 +6,4 @@ This is a demo application for practicing purposes to meet and play with Java 9 
 mvn clean install
 
 ### Run
-java --module-path app/target/app-1.0-SNAPSHOT.jar;accuweather/target/accuweather-1.0-SNAPSHOT.jar;weather/target/weather-1.0-SNAPSHOT.jar --module hu.domika.app/hu.domika.app.Main
+java --module-path weather-app/target/weather-app-1.0-SNAPSHOT.jar;weather-service/target/weather-service-1.0-SNAPSHOT.jar;weather-api/target/weather-api-1.0-SNAPSHOT.jar --module weather.app/hu.domika.weather.app.Main

@@ -1,4 +1,4 @@
-package hu.domika.weather;
+package hu.domika.weather.api;
 
 /**
  * @author Balazs_Domonkos

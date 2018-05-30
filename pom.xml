@@ -9,16 +9,16 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>accuweather</module>
-        <module>app</module>
-        <module>weather</module>
+        <module>weather-service</module>
+        <module>weather-api</module>
+        <module>weather-app</module>
     </modules>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.9</java.version>
-        <start-class>hu.domika.app.Main</start-class>
+        <start-class>hu.domika.weather.app.Main</start-class>
     </properties>
 
     <build>

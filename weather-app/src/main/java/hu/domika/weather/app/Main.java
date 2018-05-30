@@ -1,7 +1,7 @@
-package hu.domika.app;
+package hu.domika.weather.app;
 
-import hu.domika.accuweather.AccuWeatherForecast;
-import hu.domika.weather.WeatherForecast;
+import hu.domika.weather.api.WeatherForecast;
+import hu.domika.weather.service.AccuWeatherForecast;
 
 /**
  * @author Balazs_Domonkos

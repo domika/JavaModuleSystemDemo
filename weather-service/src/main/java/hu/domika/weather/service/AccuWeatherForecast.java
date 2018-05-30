@@ -1,6 +1,6 @@
-package hu.domika.accuweather;
+package hu.domika.weather.service;
 
-import hu.domika.weather.WeatherForecast;
+import hu.domika.weather.api.WeatherForecast;
 
 /**
  * @author Balazs_Domonkos
