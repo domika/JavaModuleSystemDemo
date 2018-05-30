@@ -1,15 +1,19 @@
 package hu.domika.weather.app;
 
 import hu.domika.weather.api.WeatherForecast;
-import hu.domika.weather.service.AccuWeatherForecast;
+
+import java.util.ServiceLoader;
 
 /**
  * @author Balazs_Domonkos
  */
 public class Main {
+    private static String CITY = "Budapest";
 
     public static void main(String[] args) {
-        WeatherForecast forecast = new AccuWeatherForecast();
-        System.out.println(forecast.getWeatherForecast("Budapest"));
+        Iterable<WeatherForecast> forecasts = ServiceLoader.load(WeatherForecast.class);
+        for (WeatherForecast forecast: forecasts) {
+            System.out.println(forecast.getWeatherForecast(CITY));
+        }
     }
 }

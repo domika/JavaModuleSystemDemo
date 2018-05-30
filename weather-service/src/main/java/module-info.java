@@ -1,4 +1,5 @@
 module weather.service {
     requires transitive weather.api;
-    exports hu.domika.weather.service;
+
+    provides hu.domika.weather.api.WeatherForecast with hu.domika.weather.service.AccuWeatherForecast;
 }
